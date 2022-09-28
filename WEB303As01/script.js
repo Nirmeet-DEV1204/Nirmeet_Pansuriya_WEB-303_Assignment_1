@@ -12,7 +12,7 @@ $(document).ready(function(){
 
 		console.log(salary);
 		console.log(percent);
-		console.log($('span#amount').text('$' + amount));
+		console.log($('span#amount').text('$' + amount.toFixed{2}));
 		
 	});
 
